@@ -12,8 +12,9 @@
   
 .progress-bar {
     width: 70%;
-    border: 1px solid #a5a5a5;
-    height: 8px;
+    border: 1px solid #cacaca;
+    border-radius: .0rem;
+    height: 0.8em; 
 }
 .bs{
     padding: 10px 40px 0px 40px;
