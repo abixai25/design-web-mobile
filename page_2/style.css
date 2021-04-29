@@ -1,11 +1,51 @@
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
   }
-
 .progress-bar {
-    border: 1px solid black;
+    width: 70%;
+    border: 1px solid #a5a5a5;
+    height: 8px;
+}
+.bs{
+    padding: 10px 40px 0px 40px;
+}
+.sb{
+    padding: 10px;
+}
+span.send{
+    font-size: 25px!important;
+}
+.panel-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.m-select{
+    margin: 0px 10px 0px 25px;
+    width: 25%;
 }
 .text-area{
-    padding: 2.375rem .75rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 73px;
+    width: 200px;
+}
+.center-button{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 10px 0px;
+}
+.btn-confirm{
+    color: #fff;
+    background-color: #412cf8;;
+    border-color: #412cf8;
+    border-radius: 50px;
+    width: 70%;
 }
