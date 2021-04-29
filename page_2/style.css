@@ -1,0 +1,11 @@
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+.progress-bar {
+    border: 1px solid black;
+}
+.text-area{
+    padding: 2.375rem .75rem;
+}
