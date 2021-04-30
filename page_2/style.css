@@ -1,3 +1,29 @@
+/*
+    MENU STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
 .container-fluid {
     width: 100%;
     padding-right: 0px!important;
@@ -5,17 +31,40 @@
     margin-right: auto;
     margin-left: auto;
 }
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+    overflow-x: auto;
+}
 .no-gutters {
     margin-right:0px!important;
     margin-left: 0px!important;
   }
-  
-.progress-bar {
-    width: 70%;
-    border: 1px solid #cacaca;
-    border-radius: .0rem;
-    height: 0.8em; 
+
+/* ---------------------------------------------------
+    TOP STYLE
+----------------------------------------------------- */
+
+.logo{
+    max-width: 100%;
+    width: 9.8rem;
+    height: auto;
+    padding: 5px 5px 5px 15px;
 }
+
+.progress-bar {
+    display: flex;
+    height: 0.8rem;
+    overflow: hidden;
+    font-size: 1.75rem;
+    background-color: #ffffff00;
+    border-radius: 0rem;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
 .bs{
     padding: 10px 40px 0px 40px;
 }
@@ -37,7 +86,7 @@ span.send{
     margin-top: 0px;
     margin-bottom: 0px;
     height: 73px;
-    width: 200px;
+    width: 228px;
 }
 .center-button{
     display: flex;
@@ -46,8 +95,8 @@ span.send{
 }
 .btn-confirm{
     color: #fff;
-    background-color: #412cf8;;
-    border-color: #412cf8;
+    background-color: #7386D5;
+    border-color: #7386D5;
     border-radius: 50px;
     width: 70%;
 }
